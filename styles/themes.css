@@ -1,0 +1,29 @@
+/* Default theme */
+body.default {
+  background-color: #fdf8f5;
+  background-image: url('https://source.unsplash.com/1600x900/?birthday');
+  background-size: cover;
+  color: #333;
+}
+
+/* Floral theme */
+body.floral {
+  background-image: url('https://source.unsplash.com/1600x900/?flowers');
+  background-size: cover;
+  color: #333;
+}
+
+/* Cosmic theme */
+body.cosmic {
+  background-image: url('https://source.unsplash.com/1600x900/?space');
+  background-size: cover;
+  color: white;
+}
+
+/* Retro theme */
+body.retro {
+  background-image: url('https://source.unsplash.com/1600x900/?vintage');
+  background-size: cover;
+  color: #1a1a1a;
+  font-family: 'Courier New', monospace;
+}

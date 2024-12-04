@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/themes.css">
+</head>
+<body>
+    <header>
+        <h1>🎉 Admin Panel</h1>
+    </header>
+    <main>
+        <form id="settingsForm">
+            <label for="theme">Choose Theme:</label>
+            <select id="theme" name="theme">
+                <option value="default">Default</option>
+                <option value="floral">Floral</option>
+                <option value="cosmic">Cosmic</option>
+                <option value="retro">Retro</option>
+            </select>
+
+            <label for="bgMusic">Background Music URL:</label>
+            <input type="url" id="bgMusic" name="bgMusic" placeholder="Enter music URL">
+
+            <label for="welcomeText">Welcome Text:</label>
+            <textarea id="welcomeText" name="welcomeText" placeholder="Enter welcome message"></textarea>
+
+            <button type="button" class="btn-primary" onclick="saveSettings()">Save Settings</button>
+        </form>
+    </main>
+    <footer>
+        <p>© Birthday Wishes</p>
+    </footer>
+    <script src="../scripts/backend.js"></script>
+</body>
+</html>

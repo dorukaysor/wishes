@@ -1,0 +1,21 @@
+website/
+|- assets/
+| |- images/
+| |- gifs/
+| |- videos/
+|- components/
+| |- header.html
+| |- footer.html
+| |- animations.js
+| |- transitions.css
+|- manage/
+| |- index.html
+| |- settings.json
+|- scripts/
+| |- main.js
+| |- backend.js
+|- styles/
+| |- main.css
+| |- themes.css
+|- index.html
+|- vercel.json
